@@ -22,11 +22,12 @@ VR Developer · Software Engineer. Static portfolio site (English and Vietnamese
 └── duc-hieu/
     ├── index.html          the portfolio (single page, no build step)
     ├── assets/
-    │   ├── css/            portrait.css
-    │   ├── img/            portrait.jpg
+    │   ├── css/            portrait and refinement styles
+    │   ├── js/             GSAP, ScrollTrigger and motion code
+    │   ├── img/            portrait and social preview
     │   └── licenses/       Noto Sans (OFL), embedded in index.html
     └── media/
-        ├── <project>/      cover.jpg, process.jpg, result.jpg (+ extra media)
+        ├── <project>/      screenshots, video and browser demo
         └── CREDITS.md      sources and licenses of third-party images
 ```
 

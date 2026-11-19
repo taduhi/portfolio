@@ -262,12 +262,13 @@
     min-height: 0;
     grid-template-columns: 1fr;
     gap: 16px;
-    padding: 26px 0 42px;
+    padding: 26px 0 24px;
   }
   .hieu .hero-copy { padding: 0; }
   .hieu .hero h1 { font-size: 46px; }
   .hieu .hero-lead { margin: 14px 0 18px; }
-  .hieu .portrait-board { max-height: none; height: clamp(330px, 95vw, 480px); }
+  .hieu .portrait-board { max-height: none; height: clamp(300px, 82vw, 420px); }
+  .hieu .hero-portrait { position: absolute; inset: 0; object-position: center 78%; }
   .hieu .terminal-row { padding: 12px 8px; }
   .hieu .terminal-row .project-name { font-size: 20px; }
   .hieu .project-thumb { width: 82px; height: 58px; }

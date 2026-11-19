@@ -1,15 +1,5 @@
 # Image credits
 
-## Wikimedia Commons (illustrative photos)
-
-Cropped to 16:9 for the gallery. Reuse follows each license; CC BY-SA images stay under CC BY-SA.
-
-| File | Source | Author | License |
-|---|---|---|---|
-| `reverse-tide/cover.jpg` | [File:Vietnam, Fishing boats in Mui Ne harbor.jpg](https://commons.wikimedia.org/wiki/File:Vietnam,_Fishing_boats_in_Mui_Ne_harbor.jpg) | Vyacheslav Argenberg | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) |
-| `reverse-tide/process.jpg` | [File:Meta Quest 3 front View.jpg](https://commons.wikimedia.org/wiki/File:Meta_Quest_3_front_View.jpg) | Roy.wonder.cohen | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) |
-| `reverse-tide/result.jpg` | [File:Plastic pollution north of Guihou Fishing Harbour.jpg](https://commons.wikimedia.org/wiki/File:Plastic_pollution_north_of_Guihou_Fishing_Harbour.jpg) | Johan Jönsson (Julle) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) |
-
 ## Other sources
 
 - `monomates/process.jpg`: cropped from a photo on the URA Research Group blog, https://ura.hcmut.edu.vn/tintuc/three-months-a-lab-full-of-plastic-and-one-working-idea
