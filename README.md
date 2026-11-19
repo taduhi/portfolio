@@ -7,7 +7,6 @@ VR Developer · Software Engineer. Static portfolio site (English and Vietnamese
 ## Projects
 
 - VR Supermarket
-- Reverse Tide (Thế Giới Đảo Ngược)
 - MonoMates
 - Self-hosted LLM for VR Characters
 - OCR & Vision-Language Brand Identification
@@ -44,3 +43,5 @@ then visit http://localhost:8000/.
 ## Credits
 
 Third-party images and licenses are listed in [`duc-hieu/media/CREDITS.md`](duc-hieu/media/CREDITS.md).
+
+The portfolio's animations use GSAP 3.15.1 and ScrollTrigger under the [GSAP Standard License](https://gsap.com/standard-license/).
