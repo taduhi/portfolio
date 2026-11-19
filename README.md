@@ -11,6 +11,7 @@ VR Developer · Software Engineer. Static portfolio site (English and Vietnamese
 - MonoMates
 - Self-hosted LLM for VR Characters
 - OCR & Vision-Language Brand Identification
+- Minesweeper AI Solver
 - Tic-Tac-Toe n×n with Game AI
 
 ## Structure

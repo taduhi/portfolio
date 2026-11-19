@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101712">
+  <title>Minesweeper AI | Demo</title>
+  <link rel="stylesheet" href="demo.css">
+  <script src="solver.js" defer></script>
+  <script src="demo.js" defer></script>
+</head>
+<body>
+  <div class="shell">
+    <header class="topbar">
+      <div class="brand"><span class="brand-mark">H/</span><span>Minesweeper <strong>AI</strong></span></div>
+      <span class="source-tag">DEMO DỰNG LẠI TỪ SOURCE UNITY</span>
+    </header>
+    <main>
+      <div class="heading">
+        <div><p class="eyebrow">UNITY · C# · GAME AI</p><h1>Một nước đi, một lý do.</h1></div>
+        <p class="heading-meta">Bộ giải của Hiếu đọc bàn cờ đang lộ và chọn nước tiếp theo.</p>
+      </div>
+      <div class="toolbar" aria-label="Điều khiển trò chơi">
+        <label class="select-wrap">Mức độ <select id="level"><option value="easy">5 × 5 · 3 mìn</option><option value="medium" selected>9 × 9 · 10 mìn</option><option value="hard">16 × 16 · 40 mìn</option></select></label>
+        <button id="new-game" type="button" title="Tạo bàn cờ mới">Ván mới</button>
+        <button id="flag-mode" type="button" aria-pressed="false" title="Chuyển giữa mở ô và cắm cờ">⚑ Cắm cờ</button>
+        <span class="toolbar-divider" aria-hidden="true"></span>
+        <button id="step" type="button" class="primary" title="Cho AI đi một nước">Bước tiếp <span aria-hidden="true">→</span></button>
+        <button id="auto" type="button" title="Cho AI tự giải">Tự giải</button>
+        <label class="speed-wrap">Tốc độ <input id="speed" type="range" min="100" max="900" step="100" value="400" aria-label="Tốc độ tự giải"></label>
+      </div>
+      <div class="workspace">
+        <section class="board-panel" aria-label="Bàn cờ">
+          <div class="panel-head"><span>BÀN CỜ <b id="board-size">9 × 9</b></span><span id="game-state" class="state-dot">ĐANG CHƠI</span></div>
+          <div class="board-wrap"><div id="board" class="board" role="grid" aria-label="Bàn cờ dò mìn"></div></div>
+          <div class="board-footer"><span><i class="key hidden-key"></i>Chưa mở</span><span><i class="key safe-key"></i>An toàn</span><span><i class="key flag-key"></i>Đã cắm cờ</span><span><i class="key next-key"></i>Nước AI vừa đi</span></div>
+        </section>
+        <aside class="inspector" aria-label="Quyết định AI">
+          <div class="inspector-top"><span class="eyebrow">TRẠNG THÁI BỘ GIẢI</span><span id="turn-count">BƯỚC 00</span></div>
+          <div class="decision"><p class="small-label">NƯỚC VỪA CHỌN</p><h2 id="decision-title">Sẵn sàng</h2><p id="decision-reason">Nhấn “Bước tiếp” để xem AI chọn ô đầu tiên.</p><div class="decision-meta"><span>PHƯƠNG PHÁP</span><strong id="method">—</strong></div></div>
+          <div class="stats"><div><span>ĐÃ MỞ</span><strong id="opened">00</strong></div><div><span>CỜ ĐÃ ĐẶT</span><strong id="flags">00</strong></div><div><span>MÌN CÒN LẠI</span><strong id="remaining">10</strong></div></div>
+          <div class="history-head"><span>NHẬT KÝ NƯỚC ĐI</span><span id="move-total">00 NƯỚC</span></div>
+          <ol id="history" class="history" aria-live="polite"></ol>
+        </aside>
+      </div>
+    </main>
+    <footer><span>Trần Đức Hiếu · AI solver</span><span class="source-credit"><img src="unity-sprites.png" width="176" height="16" alt="Sprite gốc của game Unity">Demo web dựng lại từ <a href="https://github.com/ThaiBaoak/Minesweeper">repo Unity của nhóm ↗</a></span></footer>
+  </div>
+</body>
+</html>
